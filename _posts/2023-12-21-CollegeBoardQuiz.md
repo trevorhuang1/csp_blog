@@ -92,4 +92,4 @@ AnyPairs ("bat", "cat", "cat")
 
 ## Conclusion
 - Overall, I think that this quiz was a rousing success and a good benchmark of my progress so far
-- I have big plans for the future, and this progress check is giving me even more motivation to pursue said plans!
+- I have big plans for the future, and this progress check is giving me even more motivation to pursue said plans! 
