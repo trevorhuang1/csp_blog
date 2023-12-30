@@ -1,8 +1,9 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
+@import "moonwalk";
+@import "list";
+@import "syntax";
 // STYLING PREFERNCES for SITE
 // mixin used as a template for buttons
   @mixin button {
