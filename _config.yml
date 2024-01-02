@@ -3,12 +3,16 @@ description: "August 2023 to June 2024"
 owner_name: Trevor Huang
 github_username: trevorhuang1
 baseurl: "/csp_blog"
-# remote_theme: pages-themes/dinky@v0.2.0
-# remote_theme: pages-themes/minimal@v0.2.0
-# remote_theme: pages-themes/hacker@v0.2.0
-# remote_theme: pages-themes/cayman@v0.2.0
-# remote_theme: pages-themes/time-machine@v0.2.0
 
+permalink: /:slug
+
+favicon: "./logo.png" # relative path to site's favicon
+
+twitter:
+    username: abhinav # update or delete this
+    card: summary_large_image
+
+#theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
 remote_theme: abhinavs/moonwalk
 
 theme_config:
@@ -34,12 +38,14 @@ theme_config:
     title_blog: Blog
     title_old_projects: Old Projects
 
+soopr:
+  publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
+
 highlighter: rouge
 
 sass:
-  style: compressed
+  style: :compressed
+
 plugins:
-- jekyll-remote-theme
-- jekyll-feed
-- jekyll-soopr-seo-tag
-future: true
+  - jekyll-feed
+  - jekyll-soopr-seo-tag
