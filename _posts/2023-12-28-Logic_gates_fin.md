@@ -3,6 +3,7 @@ title: Password Combiner
 comments: true
 description: My part of the project. It combines two passwords into one with logic gates
 type: post
+layout: post
 courses: { compsci: {week: 16} }
 ---
 
