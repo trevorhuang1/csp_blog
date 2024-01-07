@@ -110,3 +110,26 @@ What are the main advantages of Open Source software? How does it foster collabo
 #### [Google Form (Quiz)](https://docs.google.com/forms/d/e/1FAIpQLSdbVlNG-KRIOsdhpqm9DBcdtxqDefy9GF1qi4kdIWgvH8bbbg/viewform?usp=sf_link)
 
 Don't forget to document what you learned through utterances on this file on your blog.
+
+
+```python
+%%html
+<script src="https://utteranc.es/client.js"
+        repo="trevorhuang1/csp_blog"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+```
+
+
+<script src="https://utteranc.es/client.js"
+        repo="trevorhuang1/csp_blog"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
