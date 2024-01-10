@@ -82,3 +82,7 @@ To review the Digital Divide please read the provide article and watch the colle
 <a href="https://apclassroom.collegeboard.org/103/home?apd=acc49kj2ma&unit=5">College Board Video</a>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSctiLGmlzRIRIwvQgNvQcztMYVr7sRiYUJAsu9ZoYe0Oc89aA/viewform?usp=sf_link">Link to Homework Quiz</a>
+
+# Summary:
+- The digital divide is the gap between those who have access to the internet and those who do not
+- This can be detrimental to equity because some will not get as much opportunities as others

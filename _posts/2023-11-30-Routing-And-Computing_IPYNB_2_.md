@@ -3,7 +3,6 @@ toc: False
 comments: True
 title: IPYNB Table, Code
 description: Team teach on routing and computing
-layout: post
 courses: {'compsci': {'week': 1}}
 type: hacks
 ---
@@ -75,3 +74,10 @@ In simple terms: Computing is the use or operation of computers. To elaborate, c
 1. It would be best to use sequential 
 2. It would be best to use distributed computing
 3. It would be best to use paraellel
+
+# Summary
+- There are three types of computing:
+    - Sequencial: the computer works on each task one ata time
+    - Parallel: the computer runs multiple tasks at the same time
+    - Distributed: the computer sends tasks to other computers to reduce the load
+- Redundant routing allows for fault tolerance and data transfer if a pathway is not working

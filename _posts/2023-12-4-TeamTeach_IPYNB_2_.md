@@ -121,3 +121,11 @@ Leads to:
 - Loneliness
 
 ### Always be concious about the amount of screen time you spend. You don't have to cut it out of your life completely, but try to keep it in moderation.
+
+# Summary:
+- While computing innovations have brought a world of convienience into our lives, they also come with their own problems
+- Programs can have unintended consequences, such as the use of social media to cyberbully others
+- The casino effect:
+    - Progression Systems 
+    - Visual and Sound Cues
+    - Social Engagement and Competition

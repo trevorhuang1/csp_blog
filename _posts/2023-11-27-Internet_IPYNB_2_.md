@@ -41,6 +41,8 @@ This is similar to how your home address is used to deliver mail to your house. 
 
 Log into your AWS account. Which type of ip address is used in the AWS server?
 
+AWS uses ipv4
+
 # Data Packets & Transfering:
 Information is broken down into small packets for efficient transmission. These packets travel independently across the network and are reassembled at their destination. There are many examples on how data sends their packets but the most common one is messaging with your friends. 
 
@@ -159,3 +161,7 @@ Question: How does cloud storage ensure data availability and accessibility?
 
 ## Conclusion
 In summary, the internet is a dynamic and ever-evolving network that plays a crucial role in our daily lives. Understanding its basic components and functionalities is essential for navigating the digital landscape effectively.
+
+# Summary:
+- Devices communicate with each other through 7 layers known as the OSI model
+- Data packets are packets of data which contains information about the data within

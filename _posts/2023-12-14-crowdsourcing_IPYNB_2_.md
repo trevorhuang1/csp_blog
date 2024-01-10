@@ -73,3 +73,7 @@ These projects uses excess computing power in order to run these operations and 
 - Cryptocurrency
     - Uses much computing power from external people in order to process transactions. This is called "mining".
 - Concert Tickets
+
+# Summary:
+- Public dataset: a dataset made availible to the public
+- Crowdsourcing: a method of obtaining data by getting contributions for large groups of people

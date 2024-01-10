@@ -117,6 +117,7 @@ This way, no matter what, our private keys are not accessible anywhere, and peop
 
 ## Popcorn Hack #2
 - Let's say we have an encrypted message "mjqqt". If the Caesar cipher shifted the letters by 5, what is the original message?
+- The original message is "hello"
 
 
 ## Risks to personal safety
@@ -160,3 +161,8 @@ The internet is a very powerful tool that assists millions in their day to day l
 ### Homework!
 
 Fill out this google form: https://forms.gle/jxVPgKMxEiDhUyMf8
+
+# Summary:
+- My PI is often exposed without my knowledge
+- I can protect my PI with tools such as VPNs and strong passwords
+- Phishing schemes, keyloggers, and rouge access points can enable PI to malicious actors
