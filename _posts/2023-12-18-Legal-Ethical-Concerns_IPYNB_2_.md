@@ -111,6 +111,12 @@ What are the main advantages of Open Source software? How does it foster collabo
 
 Don't forget to document what you learned through utterances on this file on your blog.
 
+# Summary:
+- Intellectual Property (IP): a creative idea or invention that is intellectually sourced from the mind
+- Creating anything allows the individual who created it the right to an All Rights Reserved Copyright
+- Open Source: programs made freely available for anyone to use, redistribute, and modify
+- Open Access: online research output devoid of restrictions on access or use
+
 
 ```python
 %%html

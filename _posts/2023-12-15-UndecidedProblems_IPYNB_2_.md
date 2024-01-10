@@ -194,3 +194,7 @@ Which of the following options is not an example of an undecidable problem?
 Please review and read the lesson and then answer the google form questions. 
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLScdkCjjYFUBdRN9O1icNyhM5hWNue0VzPXlCZ5q3QGGsN_Vsw/viewform?usp=usp=sf_link"> Google Form Quiz</a>
+
+# Summary:
+- Undecidable problems are computing problems which can never be solved even given an infinite amount of time and computing power
+- Proof through contradiction: a form of proof that assumes a claim false and shows that this state leads to a known contradiction; therefore, the claim must be true
