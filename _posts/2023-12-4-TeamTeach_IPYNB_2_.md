@@ -2,8 +2,8 @@
 comments: True
 title: 5.1 Beneficial and Harmful Effects Team Teach
 description: While computing innovations are typically designed to achieve a specific purpose, they may have unintended consequences.
-type: hacks
-courses: {'compsci': {'week': 4}}
+type: tangibles
+courses: {'compsci': {'week': 14}}
 ---
 
 As new computing systems come out people will change how they go about their day-to-day buisness to take advantage of new technology. Companies like AMazon and Instacart have changed the way many people show and continue to change lifestyles. 
@@ -50,6 +50,8 @@ Harmful
 # Popcorn hack #2
 
 - Explain how an effect of computing innovation can be both beneficial and harmful
+
+- Some innovations can have an unexpected use. For example, the internet was created to make information widely availible, but an unintended consequence is the spread of misinformation online
 
 ## Unintended Uses
 - Responsible programmers try to consider the unintended ways their computing innovations can be used and the potential beneficial and harmful effects

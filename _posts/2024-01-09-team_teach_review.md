@@ -2,7 +2,7 @@
 title: Individual Team Teach Review
 comments: true
 description: This is my individual review ticket
-type: post
+type: tangibles
 layout: post
 courses: { compsci: {week: 17} }
 ---

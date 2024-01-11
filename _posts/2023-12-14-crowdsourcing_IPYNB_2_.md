@@ -3,8 +3,8 @@ comments: True
 layout: post
 title: 5.4 Crowdsourcing
 description: Team Teach by Saathvik Gampa, Akshay Nagesh, Ishan Cornick, and Nitin Balaji
-type: hacks
-courses: {'compsci': {'week': 4}}
+type: tangibles
+courses: {'compsci': {'week': 15}}
 ---
 
 Crowdsourcing is a method of obtaining information, ideas, services, or content by soliciting contributions from a large group of people, particularly from an online community, rather than from traditional employees or suppliers. This approach leverages the collective intelligence and skills of a vast, diverse crowd to solve problems, generate ideas, and complete tasks.
@@ -45,7 +45,7 @@ Distributed computing
 - Donate spare computing power to help other apps function
 
 
-Example: 
+Example: Google uses distributed computing to search and index the web
 ### Boinc - University of California Berkley
 - Mathematics
 - Astrophysics

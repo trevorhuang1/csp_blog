@@ -4,7 +4,7 @@ comments: True
 title: The Internet
 description: Exploring the Internet
 courses: {'compsci': {'week': 13}}
-type: hacks
+type: tangibles
 ---
 
 # Understanding the Internet

@@ -3,8 +3,8 @@ toc: False
 comments: True
 title: IPYNB Table, Code
 description: Team teach on routing and computing
-courses: {'compsci': {'week': 1}}
-type: hacks
+courses: {'compsci': {'week': 13}}
+type: tangibles
 ---
 
 # Networking

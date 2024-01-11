@@ -3,8 +3,8 @@ toc: True
 comments: True
 layout: post
 title: 3.8 Undecided Problems Team Teach
-courses: {'compsci': {'week': 4}}
-type: hacks
+courses: {'compsci': {'week': 15}}
+type: tangibles
 ---
 
 # What is an Undecidable Problem? 
@@ -25,11 +25,13 @@ Some problems take a very long time to solve, so we use algorithms that give app
 
 **A.** The programmers can come up with an algorithm that will find 100% of the unreachable code, but it would take an unreasonable amount of time to run.
 
-**B.** The programmers can come up with an algorithm that correctly determines unreachable code most of the time, but it will not correctly identify unreachable code in all cases. It's B
+**B.** The programmers can come up with an algorithm that correctly determines unreachable code most of the time, but it will not correctly identify unreachable code in all cases.
 
 **C.** The programmers may be able to come up with an algorithm to find 100% of the unreachable code, but nobody has come up with the algorithm yet, so they will need more development time.
 
 **D.** The tool will not be able to correctly identify any cases of unreachable code.
+
+B because some algorithms are undecidable
 
 <details>
   <summary>Solution</summary>
@@ -64,13 +66,15 @@ However, no algorithm exists that can analyze any program's code and determine w
 
 Which of the following options best summarizes the Halting Problem?
 
-**A.** The Halting Problem is a decision problem in computability theory that seeks to determine whether a given algorithm will halt or run indefinitely for all possible inputs. It's A
+**A.** The Halting Problem is a decision problem in computability theory that seeks to determine whether a given algorithm will halt or run indefinitely for all possible inputs.
 
 **B.** The Halting Problem is a sorting algorithm designed to arrange elements in ascending order.
 
 **C.** The Halting Problem is a protocol used to secure communications over the internet.
 
 **D.** The Halting Problem is a theorem in number theory that deals with prime numbers.
+
+A because the halting problem has an issue with proof by contradiction
 
 <details>
   <summary>Solution</summary>
@@ -181,6 +185,7 @@ Which of the following options is not an example of an undecidable problem?
 
 **D.** Bubble sorting
 
+D because it was not mentioned
 
 <details>
   <summary>Solution</summary>

@@ -3,9 +3,9 @@ layout: post
 toc: True
 title: Digital Divide Team Teach
 description: Abdullah, Anika, Alisha, Sergi, Vance.
-courses: {'compsci': {'week': 13}}
+courses: {'compsci': {'week': 15}}
 categories: []
-type: ccc
+type: tangibles
 ---
 
 ## Digital Divide
@@ -70,6 +70,12 @@ Imagine you are an exchange student from another country visiting our community,
 Using the provided graphic and what you have just learned, pick one country that is heavily impacted by the digital divide, and give three reasons why that might be. 
 
 ![]({{site.baseurl}}/images/pophack3.png)
+
+India has a severe issue with the digital divide:
+This could be because:
+1. Rural/urban disparities: many people living the India country side don't have access to the internet while most in the big cities do
+2. Educational disparities: those with better education in India often have access to the internet at school
+3. Socioeconmic disparities: affluent populations India have much greater access to technology
 
 ---
 

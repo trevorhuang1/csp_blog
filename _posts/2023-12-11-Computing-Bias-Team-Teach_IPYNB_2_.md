@@ -4,8 +4,8 @@ comments: True
 layout: post
 title: 5.3 Computing Bias Lesson
 description: Computing Bias Lesson
-courses: {'compsci': {'week': 15}}
-type: hacks
+courses: {'compsci': {'week': 14}}
+type: tangibles
 ---
 
 ## Computing Bias - Hanlun
