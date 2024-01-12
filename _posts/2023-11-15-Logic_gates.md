@@ -1,8 +1,8 @@
 ---
-title: Password Combiner
+title: Password Combiner Initial
 comments: true
 description: My part of the project. It combines two passwords into one with logic gates
-type: post
+type: tangibles
 courses: { compsci: {week: 13} }
 ---
 

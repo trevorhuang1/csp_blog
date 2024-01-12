@@ -5,6 +5,7 @@ title: IPYNB Table, Code
 description: Team teach on routing and computing
 courses: {'compsci': {'week': 13}}
 type: tangibles
+layout: post
 ---
 
 # Networking

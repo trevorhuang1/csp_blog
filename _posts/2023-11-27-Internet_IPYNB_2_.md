@@ -4,6 +4,7 @@ comments: True
 title: The Internet
 description: Exploring the Internet
 courses: {'compsci': {'week': 13}}
+layout: post
 type: tangibles
 ---
 

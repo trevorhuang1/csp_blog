@@ -3,7 +3,7 @@ comments: True
 layout: post
 title: 5.4 Crowdsourcing
 description: Team Teach by Saathvik Gampa, Akshay Nagesh, Ishan Cornick, and Nitin Balaji
-type: tangibles
+type: hacks
 courses: {'compsci': {'week': 15}}
 ---
 

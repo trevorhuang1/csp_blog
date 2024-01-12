@@ -5,7 +5,7 @@ title: Digital Divide Team Teach
 description: Abdullah, Anika, Alisha, Sergi, Vance.
 courses: {'compsci': {'week': 15}}
 categories: []
-type: tangibles
+type: hacks
 ---
 
 ## Digital Divide

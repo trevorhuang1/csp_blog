@@ -2,7 +2,7 @@
 title: 2020 College Board MC Review
 comments: true
 description: This is my review ticket for the college board multiple choice test I just took
-type: hacks
+type: tangibles
 courses: { compsci: {week: 15} }
 ---
 

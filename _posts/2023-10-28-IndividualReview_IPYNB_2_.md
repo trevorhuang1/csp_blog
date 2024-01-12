@@ -4,7 +4,7 @@ comments: True
 layout: post
 title: PixelPartner Individual Review
 description: This is a review of all of my accomplishments and struggles through the project.
-courses: {'compsci': {'week': 11}}
+courses: {'compsci': {'week': 12}}
 type: tangibles
 ---
 
