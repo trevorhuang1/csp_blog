@@ -4,8 +4,8 @@ layout: post
 hide: False
 title: Legal & Ethical Concerns
 description: Team Teach On Legal & Ethical Concerns
-courses: {compsci: {week: 16}}
-type: hacks
+courses: {'compsci': {'week': 16}}
+type: tangibles
 ---
 
 # 5.5 Legal & Ethical Concerns

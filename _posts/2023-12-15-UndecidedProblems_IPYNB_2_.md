@@ -4,7 +4,7 @@ comments: True
 layout: post
 title: 3.8 Undecided Problems Team Teach
 courses: {'compsci': {'week': 15}}
-type: hacks
+type: tangibles
 ---
 
 # What is an Undecidable Problem? 

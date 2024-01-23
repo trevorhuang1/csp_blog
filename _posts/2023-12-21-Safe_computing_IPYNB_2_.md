@@ -5,7 +5,7 @@ hide: False
 title: P2 | 5.6 - Safe Computing
 description: Team Teach On Safe Computing
 courses: {'compsci': {'week': 16}}
-type: hacks
+type: tangibles
 ---
 
 ## PII tracking
