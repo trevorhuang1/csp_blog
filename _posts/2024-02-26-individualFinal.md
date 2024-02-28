@@ -1,0 +1,54 @@
+---
+title: Final Individual Review
+comments: true
+description: Trevor's final individual review for CPT.
+type: hacks
+layout: post
+courses: { compsci: {week: 19} }
+---
+
+# Project overview
+Let 'em Cook! is our own twist on a childhood favorite game of Little Alchemy. Instead of combining elements, we combine foods! We also have a leaderboard and trading features between users as well as a shop
+
+# My feature
+My feature is the trading feature between users. When a user wants to trade with another, they must first send them a friend request and wait for the other user to accept before sending items to each other. This is done through the sqlite.db which contains every user's list of friends and friend requests
+
+# College Board Requirements:
+- Instructions for input from one of the following: the user (including user actions that trigger events), a device, an online data stream, a file
+- Use of at least one list (or other collection type) to represent a collection of data that is stored and used to manage program complexity and help fulfill the program’s purpose
+- At least one procedure that contributes to the program's intended purpose, where you have defined the procedure's name, the return type (if necessary), and one or more parameters
+- An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure
+- Calls to your student-developed procedure
+- Instructions for output (tactile, audible, visual, or textual) based on input and program functionality
+
+## Instructions for input from one of the following: the user (including user actions that trigger events), a device, an online data stream, a file
+My part allows you to send a recipe to a friend using a form and then a button to send/accept friend requests
+![Image](https://files.catbox.moe/4iqmus.png)
+
+## Use of at least one list (or other collection type) to represent a collection of data that is stored and used to manage program complexity and help fulfill the program’s purpose
+Lists of a user's friends in the sqlite.db allow for sending of items between friends
+![Image](https://files.catbox.moe/qtr0zw.png)
+
+## At least one procedure that contributes to the program's intended purpose, where you have defined the procedure's name, the return type (if necessary), and one or more parameters
+parameter(self), returns if error, name(delete)
+![Image](https://files.catbox.moe/1dzgby.png)
+
+## An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure
+The algorithmn first confirms the user did not send to themself before adding the friend request (sequencing), it selects the correct user based on the sender in the body (selection) after iterating throughout all of the users
+![Image](https://files.catbox.moe/75z56w.png)
+
+## Calls to your student-developed procedure
+Frontend fetch request to backend calls to the delete function
+![Image](https://files.catbox.moe/3v9efb.png)
+
+## Instructions for output
+Code to generate the data tables
+![Image](https://files.catbox.moe/u9wmdy.png)
+
+<script src="https://utteranc.es/client.js"
+        repo="trevorhuang1/csp_blog"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

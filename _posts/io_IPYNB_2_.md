@@ -105,6 +105,15 @@ example_str = f"Hello {variable1} {variable2} World!"
 
 
 ```python
+N,S = [int(i) for i in input().split()]
+
+data = [0]*N
+for i in range(N):
+    data[i] = [int(i) for i in input().split()]
+```
+
+
+```python
 nums = [int(x) for x in input().split()]
 n = nums[0]
 s = nums[1]
