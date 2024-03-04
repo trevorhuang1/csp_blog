@@ -3,7 +3,7 @@ toc: True
 comments: True
 layout: notebook
 title: JWT Roles
-courses: {'timebox': {'week': 3}}
+courses: {'timebox': {'week': 21}}
 type: tangibles
 ---
 

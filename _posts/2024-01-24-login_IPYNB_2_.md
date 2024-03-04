@@ -1,6 +1,6 @@
 ---
 title: Login/Signup
-courses: {'compsci': {'week': 6}}
+courses: {'compsci': {'week': 20}}
 type: tangibles
 layout: base
 ---

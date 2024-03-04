@@ -2,9 +2,9 @@
 title: Final Individual Review
 comments: true
 description: Trevor's final individual review for CPT.
-type: hacks
+type: tangibles
 layout: post
-courses: { compsci: {week: 19} }
+courses: { compsci: {week: 24} }
 ---
 
 # Project overview

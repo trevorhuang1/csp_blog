@@ -4,7 +4,7 @@ comments: true
 description: Ideation for the game "Let 'em Cook!"
 type: plans
 layout: post
-courses: { compsci: {week: 17} }
+courses: { compsci: {week: 21} }
 ---
 
 ## Roles:
