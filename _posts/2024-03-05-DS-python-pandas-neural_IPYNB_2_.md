@@ -3,7 +3,7 @@ layout: post
 title: Neural Network, Handwritting Detection
 description: Handwritting detection using Tensor Flow
 courses: {'compsci': {'week': 25}}
-type: ccc
+type: hacks
 ---
 
 ## Sample Neural Network

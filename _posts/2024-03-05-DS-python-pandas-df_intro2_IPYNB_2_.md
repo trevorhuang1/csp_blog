@@ -2,8 +2,8 @@
 layout: post
 title: Pandas, Datasets
 description: This blog contains basic techniques for analyzing a dataset using the Python Pandas module.  Python is a primary language for data science and is useful for backend operations like analyzing and storing data.
-courses: {'csp': {'week': 25}}
-type: ccc
+courses: {'compsci': {'week': 25}}
+type: hacks
 author: Vardaan Sinha
 ---
 

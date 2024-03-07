@@ -3,8 +3,8 @@ layout: post
 toc: True
 title: ML, Titanic Data
 description: Exploring the Titanic dataset with machine learning.
-courses: {'csp': {'week': 25}}
-type: ccc
+courses: {'compsci': {'week': 25}}
+type: hacks
 ---
 
 ## Introduction to Pandas and ML

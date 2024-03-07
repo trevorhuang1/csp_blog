@@ -3,7 +3,7 @@ layout: post
 toc: True
 title: Pandas, Data Structures / Data Analysis
 description: Data connections, trends, and correlation.  Pandas is introduced as it could be valuable for CPT and PBL.
-courses: {'csp': {'week': 25}}
+courses: {'compsci': {'week': 25}}
 type: hacks
 ---
 

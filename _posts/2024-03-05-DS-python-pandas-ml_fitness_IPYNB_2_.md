@@ -2,9 +2,9 @@
 layout: post
 title: ML, Fitness
 description: Machine Learning and Fitness Data, using a linear regression model.  The purpose of this model is to maximize calories burn.
-courses: {'csp': {'week': 25}}
+courses: {'compsci': {'week': 25}}
 author: Tanisha Patil
-type: ccc
+type: hacks
 ---
 
 ## Overview
