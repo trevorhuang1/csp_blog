@@ -1,8 +1,8 @@
 ---
 title: Login/Signup
-courses: {'compsci': {'week': 20}}
+courses: {'compsci': {'week': 19}}
 type: tangibles
-layout: base
+layout: post
 ---
 
 # Building a Secure Login/Signup System

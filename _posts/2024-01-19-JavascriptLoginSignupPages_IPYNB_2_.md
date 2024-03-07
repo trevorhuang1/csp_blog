@@ -4,7 +4,7 @@ comments: True
 layout: post
 title: Javascript Login and Signup Pages Team Teach
 description: P2 Group, Alisha, Peyton, Anika, Sharon, Tara
-courses: {'compsci': {'week': 20}}
+courses: {'compsci': {'week': 18}}
 type: hacks
 ---
 

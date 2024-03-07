@@ -4,7 +4,7 @@ layout: post
 hide: False
 title: P2 | Python/Flask
 description: Team Teach On Python/Flask
-courses: {'compsci': {'week': 18}}
+courses: {'compsci': {'week': 15}}
 type: tangibles
 ---
 

@@ -4,8 +4,8 @@ comments: True
 layout: notebook
 title: Deployment
 description: Deployment theory
-courses: {'compsci': {'week': 22}}
-type: tangibles
+courses: {'compsci': {'week': 23}}
+type: hacks
 ---
 
 ## Theory and background for Deployment

@@ -3,8 +3,8 @@ toc: True
 comments: True
 layout: notebook
 title: JWT Roles
-courses: {'timebox': {'week': 21}}
-type: tangibles
+courses: {'compsci': {'week': 20}}
+type: hacks
 ---
 
 # JWT Roles Team Teach
