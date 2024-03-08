@@ -51,6 +51,9 @@ Code to generate the data tables
 - <a href="https://github.com/trevorhuang1/lmc-frontend/pulls?q=is%3Apr+is%3Aclosed+author%3Atrevorhuang1">Link to frontend pull requests</a>
 - <a href="https://github.com/trevorhuang1/lmc-backend/pulls?q=is%3Apr+is%3Aclosed+author%3Atrevorhuang1+">Link to backend pull requests</a>
 
+## Extra Credit (Tri 3):
+![Image](https://files.catbox.moe/9nvz18.png)
+
 <script src="https://utteranc.es/client.js"
         repo="trevorhuang1/csp_blog"
         issue-term="pathname"
