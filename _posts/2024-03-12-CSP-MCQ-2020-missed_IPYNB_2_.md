@@ -3,8 +3,8 @@ comments: True
 layout: post
 title: MCQ 2020 Frequently Missed Questions
 description: Questions and sample Python code to represent the most frequently missed questions on the 2020 AP Computer Science A Multiple Choice Exam.
-type: collab
-courses: {'csp': {'week': 26}}
+type: hacks
+courses: {'compsci': {'week': 26}}
 ---
 
 ## 4. Cause of overflow Error (1D, binary math) - Tara Sehdave
@@ -54,6 +54,10 @@ print(f"Overflow float to infinity: {overflow_float}")
     Max float: 1.7976931348623157e+308
     Overflow float to infinity: inf
 
+
+## Popcorn Hack 1
+- Binary overflow because it is confined to 8 bits but exceeds 255
+- Underflow because the binary bits cannot represent negative numbers
 
 
 ```python
@@ -142,6 +146,20 @@ for A in [False, True]:
     True True True True --> True
 
 
+## Popcorn Hack 2
+- New truth table using NOT and NOR gates
+- There are only 8 combinations since the not gate only takes 1 argument
+- Scenario
+    - Light Switch where A is if there is motion
+    - B is if the light is on
+    - C is time of day
+    - EX: There is motion --> A is True (NOT gate returns false)
+        - The light is on --> B is true
+        - It is 10 PM --> B is true
+        - NOR gate returns true
+        - Second NOR gate between false and true returns true
+        - The light should remain on
+
 
 ```python
 # NOT gate
@@ -155,6 +173,7 @@ def NOR_gate(A, B):
 # Print truth table for circuit
 print('A', 'B', 'C', "-->", 'Output')
 
+# Hypothetical situation of turning on/off a light
 def circuit(A, B, C):
     return NOR_gate(NOT_gate(A), NOR_gate(B, C))
 
@@ -255,15 +274,6 @@ rgb_primary = [('11111111', '00000000', '00000000'),
                 ('11111111', '11111111', '00000000'),
                 ('00000000', '00000000', '11111111')]
 plot_colors(rgb_primary)
-
-favorite = [('01000000', '11000000', '11110000')] # Favorite Color
-plot_colors(favorite)
-
-# Standard Color Examples
-standard_colors = [('11111111', '00000000', '11111111'), 
-                ('00000000', '00000000', '00000000'),
-                ('11111111', '11111111', '11111111')]
-plot_colors(standard_colors)
 ```
 
     binary: 11111111 11111111 11110000
@@ -273,7 +283,7 @@ plot_colors(standard_colors)
 
 
     
-![png](output_8_1.png)
+![png](output_10_1.png)
     
 
 
@@ -290,9 +300,24 @@ plot_colors(standard_colors)
 
 
     
-![png](output_8_3.png)
+![png](output_10_3.png)
     
 
+
+## Popcorn Hack 3
+
+
+```python
+favorite = [('01000000', '11000000', '11110000')] # Favorite Color
+plot_colors(favorite)
+
+# Standard Color Examples
+standard_colors = [('11111111', '00000000', '11111111'), 
+                ('00000000', '00000000', '00000000'),
+                ('11111111', '11111111', '11111111'),
+                ('00000000', '11111111', '11111111'),]
+plot_colors(standard_colors)
+```
 
     binary: 01000000 11000000 11110000
     decimal 64 192 240
@@ -301,7 +326,7 @@ plot_colors(standard_colors)
 
 
     
-![png](output_8_5.png)
+![png](output_12_1.png)
     
 
 
@@ -314,11 +339,14 @@ plot_colors(standard_colors)
     binary: 11111111 11111111 11111111
     decimal 255 255 255
     proportion 1.0 1.0 1.0
+    binary: 00000000 11111111 11111111
+    decimal 0 255 255
+    proportion 0.0 1.0 1.0
 
 
 
     
-![png](output_8_7.png)
+![png](output_12_3.png)
     
 
 
@@ -374,7 +402,7 @@ def algorithm_10times(lst):
         pass
 
 # Create a large list
-n = 10000
+n = 1000
 lst = list(range(n))
 
 # Measure the time taken by algorithm1
@@ -396,9 +424,54 @@ end = time.time()
 print(f"Algorithm 10 times took {(end - start)*1000:.2f} milliseconds")
 ```
 
-    Algorithm 2 * N took 0.29 milliseconds
-    Algorithm N^2 took 786.55 milliseconds
-    Algorithm 10 times took 0.07 milliseconds
+    Algorithm 2 * N took 0.06 milliseconds
+    Algorithm N^2 took 7.62 milliseconds
+    Algorithm 10 times took 0.03 milliseconds
+
+
+## Popcorn Hack 4
+- Recursion
+    - O(2^n) time complexity because it calls itself within 2 times
+- O(n^4)
+    - 4 nested loops
+
+
+```python
+def recursion(num):
+    if num <= 1:
+        return num
+    return recursion(num - 1) - recursion(num - 2) 
+
+start = time.time()
+recursion(30)
+end = time.time()
+
+print(f"Recursion times took {(end - start)*1000:.2f} milliseconds")
+
+def powerOfFour(lst):
+    n = len(lst)
+    for i in range(n):
+        pass
+        for j in range(n):
+            pass
+            for k in range(n):
+                pass
+                for l in range(n):
+                    pass
+
+
+n = 100
+lst = list(range(n))
+start = time.time()
+powerOfFour(lst)
+end = time.time()
+
+print(f"O(n^4) times took {(end - start)*1000:.2f} milliseconds")
+```
+
+    Recursion times took 180.93 milliseconds
+    O(n^4) times took 922.20 milliseconds
+
 
 
 ## 56. Compare execution times of tow version (1D analysis) - Kayden Le
@@ -470,6 +543,46 @@ version_II(idList)
     Version II took 540.00 simulated seconds
 
 
+## Popcorn Hack 5
+- Slow recursion uses recursion to get the answer
+- Fast recursion uses memoization
+    - Stores the values so it is very quick
+    - O(n) run time vs O(2^n) of slow fibonacci
+    - <a href="https://www.youtube.com/watch?v=P8Xa2BitN3I">Youtube Video</a>
+
+
+```python
+def slowFibonacci(num):
+    if num <= 1:
+        return num
+    else:
+        return slowFibonacci(num-1) + slowFibonacci(num-2)
+
+start = time.time()
+smallSlow = slowFibonacci(5)
+end = time.time()
+print(f"Slow Fibonacci with a small number took {end - start:.2f} seconds")
+
+#start = time.time()
+#smallSlow = slowFibonacci(40)
+#end = time.time()
+#print(f"Slow Fibonacci with a large number took {end - start:.2f} seconds")
+
+def fastFibonacci(n, computed = {0: 0, 1: 1}):
+    if n not in computed:
+        computed[n] = fastFibonacci(n-1, computed) + fastFibonacci(n-2, computed)
+    return computed[n]
+
+start = time.time()
+fast = fastFibonacci(1000)
+end = time.time()
+print(f"Fast Fibonacci with a large number took {end - start:.2f} seconds")
+```
+
+    Slow Fibonacci with a small number took 0.00 seconds
+    Fast Fibonacci with a large number took 0.01 seconds
+
+
 ## 64. Error with multiplication using repeated addition (4C algorithms and programs) - Abdullah Khanani
 
 The following procedure is intended to return the value of x times y, where x and y are integers. Multiplication is implemented using repeated additions.
@@ -536,6 +649,37 @@ print(multiply(-2, 5))  # Expected output: -10
 print(multiply(-2, -5))  # Expected output: 10, Actual output: 0
 ```
 
+    10
+    0
+    -10
+    0
+
+
+## Popcorn Hack 6
+- Fixed using abs and multiplying by the sign at the end
+
+
+```python
+def multiply(x, y):
+    count = 0 
+    result = 0
+    while count < abs(y):
+        result += x
+        count += 1
+    return result * y/abs(y)
+
+print(multiply(2, 5))  # Expected output: 10
+print(multiply(2, -5))  # Expected output: -10, Actual output: 0
+print(multiply(-2, 5))  # Expected output: -10
+print(multiply(-2, -5))  # Expected output: 10, Actual output: 0
+```
+
+    10.0
+    -10.0
+    -10.0
+    10.0
+
+
 ## 65. Call to concat and substring (4B string operations) - Ameer Hussain
 
 A program contains the following procedures for string manipulation.
@@ -570,4 +714,28 @@ print(animal)  # Outputs: lopejacka
 ```
 
     lopejacka
+
+
+## Popcorn Hack 7
+
+
+```python
+# A is already done above
+
+# B --> this prints jackalope as intended
+animal = "antelope"[4:8]
+animal = "a" + animal
+animal = "jackrabbit"[0:4] + animal
+print(animal)
+
+# C --> this prints jackalope as well
+animal = "jackrabbit"[0:4]
+animal = animal + "a"
+animal = animal + "antelope"[4:8]
+print(animal)
+
+```
+
+    jackalope
+    jackalope
 
