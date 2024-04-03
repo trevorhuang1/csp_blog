@@ -52,10 +52,34 @@ Using the Titanic dataset will require importing data.
 
 ```python
 # Uncomment the following lines to install the required packages
-# !pip install seaborn
-# !pip install pandas
-# !pip install scikit-learn
+!pip install seaborn
+!pip install pandas
+!pip install scikit-learn
 ```
+
+    Defaulting to user installation because normal site-packages is not writeable
+    Requirement already satisfied: seaborn in /home/trevor/.local/lib/python3.10/site-packages (0.13.2)
+    Requirement already satisfied: matplotlib!=3.6.1,>=3.4 in /usr/lib/python3/dist-packages (from seaborn) (3.5.1)
+    Requirement already satisfied: numpy!=1.24.0,>=1.20 in /home/trevor/.local/lib/python3.10/site-packages (from seaborn) (1.26.4)
+    Requirement already satisfied: pandas>=1.2 in /home/trevor/.local/lib/python3.10/site-packages (from seaborn) (2.2.1)
+    Requirement already satisfied: pytz>=2020.1 in /usr/lib/python3/dist-packages (from pandas>=1.2->seaborn) (2022.1)
+    Requirement already satisfied: tzdata>=2022.7 in /home/trevor/.local/lib/python3.10/site-packages (from pandas>=1.2->seaborn) (2024.1)
+    Requirement already satisfied: python-dateutil>=2.8.2 in /home/trevor/.local/lib/python3.10/site-packages (from pandas>=1.2->seaborn) (2.9.0.post0)
+    Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2.8.2->pandas>=1.2->seaborn) (1.16.0)
+    Defaulting to user installation because normal site-packages is not writeable
+    Requirement already satisfied: pandas in /home/trevor/.local/lib/python3.10/site-packages (2.2.1)
+    Requirement already satisfied: tzdata>=2022.7 in /home/trevor/.local/lib/python3.10/site-packages (from pandas) (2024.1)
+    Requirement already satisfied: pytz>=2020.1 in /usr/lib/python3/dist-packages (from pandas) (2022.1)
+    Requirement already satisfied: numpy<2,>=1.22.4 in /home/trevor/.local/lib/python3.10/site-packages (from pandas) (1.26.4)
+    Requirement already satisfied: python-dateutil>=2.8.2 in /home/trevor/.local/lib/python3.10/site-packages (from pandas) (2.9.0.post0)
+    Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2.8.2->pandas) (1.16.0)
+    Defaulting to user installation because normal site-packages is not writeable
+    Requirement already satisfied: scikit-learn in /home/trevor/.local/lib/python3.10/site-packages (1.4.1.post1)
+    Requirement already satisfied: scipy>=1.6.0 in /usr/lib/python3/dist-packages (from scikit-learn) (1.8.0)
+    Requirement already satisfied: threadpoolctl>=2.0.0 in /home/trevor/.local/lib/python3.10/site-packages (from scikit-learn) (3.3.0)
+    Requirement already satisfied: numpy<2.0,>=1.19.5 in /home/trevor/.local/lib/python3.10/site-packages (from scikit-learn) (1.26.4)
+    Requirement already satisfied: joblib>=1.2.0 in /home/trevor/.local/lib/python3.10/site-packages (from scikit-learn) (1.3.2)
+
 
 ### Titanic Data
 > Look at a sample of data.

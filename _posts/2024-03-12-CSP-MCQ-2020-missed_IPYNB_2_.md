@@ -739,3 +739,62 @@ print(animal)
     jackalope
     jackalope
 
+
+
+```python
+def binary_search(arr, target):
+    low = 0
+    high = len(arr) - 1
+
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+
+    return -1  # Target not found
+
+# Example usage
+arr = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+target = 12
+result = binary_search(arr, target)
+if result != -1:
+    print(f"Element {target} is found at index {result}")
+else:
+    print(f"Element {target} is not found in the array")
+
+```
+
+    Element 12 is found at index 5
+
+
+
+```python
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+
+# Download the vader_lexicon
+nltk.download('vader_lexicon')
+
+# Initialize the VADER sentiment intensity analyzer
+sia = SentimentIntensityAnalyzer()
+
+# Provide a string to analyze
+text = ""
+
+# Get the sentiment scores
+sentiment = sia.polarity_scores(text)
+
+print(sentiment)
+```
+
+    {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+
+    [nltk_data] Downloading package vader_lexicon to
+    [nltk_data]     /home/trevor/nltk_data...
+    [nltk_data]   Package vader_lexicon is already up-to-date!
+
