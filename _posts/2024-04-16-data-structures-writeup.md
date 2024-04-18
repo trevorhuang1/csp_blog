@@ -66,3 +66,12 @@ courses: {'compsci': {'week': 28}}
 ![image](https://github.com/trevorhuang1/csp_blog/assets/118785933/4bcbc59c-29b1-463f-9e6b-5dc0e291ee00)
 - While our data science project did not use a decision tree, the titanic project did. A decision tree. A decison tree splits the data into categories and then at each decision it must make it predicts a value based on the data. After this process is finished it comes up with a conclusion based on the decisions the program made.
 ![image](https://github.com/trevorhuang1/csp_blog/assets/118785933/28b40983-9010-4459-b2a0-1ffca046a6d0)
+
+<script src="https://utteranc.es/client.js"
+        repo="{{ site.github_username }}/{{ site.github_repo | default: site.baseurl | remove: "/" }}"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
