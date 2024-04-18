@@ -32,6 +32,12 @@ courses: {'compsci': {'week': 28}}
 ![image](https://github.com/trevorhuang1/csp_blog/assets/118785933/6aed471e-1ed3-47d4-bf07-089609ece932)
 - Postman URL and body for the GET request
 ![image](https://github.com/trevorhuang1/csp_blog/assets/118785933/04dbcf12-55b9-4cee-8376-80a80a02b06c)
+- POSTman URL and body for the PUT request
+![image](https://github.com/trevorhuang1/csp_blog/assets/118785933/29561bf6-036c-40dd-ab4f-a0b81a66cdbc)
+- Sqlite DB before PUT request
+![image](https://github.com/trevorhuang1/csp_blog/assets/118785933/8e1b17db-c30b-4aef-ac04-74ea961710d6)
+- After the PUT request
+![image](https://github.com/trevorhuang1/csp_blog/assets/118785933/ba44f447-7c6a-4759-a747-fbba77166d07)
 - Above screenshots have the 200 success already
 - 400 error after missing password for authentication POST request
 ![image](https://github.com/trevorhuang1/csp_blog/assets/118785933/1fa01095-71e4-432a-b8ce-5e5ed826b9c3)
@@ -51,3 +57,12 @@ courses: {'compsci': {'week': 28}}
 ![Image](https://github.com/nighthawkcoders/teacher_portfolio/assets/118785933/ce0ffcd8-c234-461b-ab0b-259758d2cba7)
 - Below are all the different redirects based on the error received. For example, a 404 page redirects to its own page, 401 has its own, etc
 ![Image](https://github.com/nighthawkcoders/teacher_portfolio/assets/118785933/5b6ebeed-4cd7-45c3-ae69-34633090a41b)
+
+
+## Algorithm Analysis
+- No cleaning is need because the dataset only has 2 columns; one for CPI value and the other for the date. However, the cpi rates are being converted to interest rates for later use
+![image](https://github.com/trevorhuang1/csp_blog/assets/118785933/3b9d68ab-ec80-4141-a10c-2d7c2ebfbf45)
+- Since we did not implement a decision tree for predicting the inflation rate for the next month, the program uses linear regression--not logistic regression. The date is plotted on the x axis and the inflation rate is plotted on the y axis. Then, a LSRL is used to try and predict future rates
+![image](https://github.com/trevorhuang1/csp_blog/assets/118785933/4bcbc59c-29b1-463f-9e6b-5dc0e291ee00)
+- While our data science project did not use a decision tree, the titanic project did. A decision tree. A decison tree splits the data into categories and then at each decision it must make it predicts a value based on the data. After this process is finished it comes up with a conclusion based on the decisions the program made.
+![image](https://github.com/trevorhuang1/csp_blog/assets/118785933/28b40983-9010-4459-b2a0-1ffca046a6d0)
