@@ -28,16 +28,22 @@ Show specific example of building a List using List Comprehension. Show examples
 
 Sorting / Searching (Algorithmic)
 Show examples of sorting and searching using the backend of your project.. FYI, SQLAlchemy allows filtered selections and sorting. Additionally, you have sorting options discussed in tech talk.
+- As a group, we discussed using either quicksort or merge sort. The TV shows are already sorted by ratings, however we need to sort by release date and website fan ratings as well.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WprjBK0p6rw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Watch the QuickSort Visual Explanation](https://www.youtube.com/watch?v=WprjBK0p6rw)
+
 
 Big(O)
 Illustrate Space and Time complexity used in your Sorting / Searching algorithm.
+- We did some research into time complexity and both merge sort and quicksort have O(log(n)) time complexity on average, but quicksort has a O(n^2) time complexity in the worst case scenerio
+- However looking into the space complexity, quicksort has O(log(n)) complexity for auxillary space and O(n) for non in place
+- Merge sort has a consistent O(n) space time complexity
+- Since we are planning to go up to 500 tv shows, we decided that quicksort would be best because of its space complexity
 
-- This project would most likely utilize multiple for loops, but none of them would be nested. The algorithm would have a linear time complexity.
-\
 2D Iteration
 Show examples of code that use 2D iteration. This can be anywhere in your code where you are using rows and columns.
-
-
 ```
 anime_data = [
     ['Title', 'Release Date', 'Genre', 'Rating'],
@@ -52,3 +58,12 @@ anime_data = [
 Deployment (Full Stack)
 A complete deployment illustration multiple people using and updating your Full Stack Web Application simultaneously.
 - The user will also be able to have their own ratings on each show and can sort it by those ratings. If the user wants to update their ratings, a PUT request will be sent to the SQL backend and their ratings will be updated.
+
+<script src="https://utteranc.es/client.js"
+        repo="{{ site.github_username }}/{{ site.github_repo | default: site.baseurl | remove: "/" }}"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
