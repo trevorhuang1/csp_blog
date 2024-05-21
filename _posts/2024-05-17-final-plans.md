@@ -10,6 +10,23 @@ courses: {'compsci': {'week': 30}}
 ## Overall Project Plans
 For the final night at the museum project, we plan to create an algorithm that sorts anime series by popularity, ratings, number of episodes, genre, and how recently it was released. This will be done by initially parsing the web for a list of anime, then appending it to an array. Then, the array of anime titles will be iterated through, then using a google trends api it will check how many times each anime was searched for in the past year to determine their relevancy/popularity. The value for how many times each anime was searched for will be set as a dictionary value, then, using a sorting function, the dictionary will be ordered from most searches to least searches. Furthermore, for rating popularity, utilizing beautiful soup, a web parser, we can parse an anime site to search for ratings, then utilizing a dictionary we can sort by highest rating. This process can be repeated for genre, and the date of release to filter the results out. Or, there can be an array full of arrays to store the values for each anime. 
 
+## Work Distribution:
+- Matthew:
+    - Webscraping to get the top 100 japanese shows
+- Aashray Reddy:
+    - Backend model
+    - Frontend work after the model is finished
+- Aashray Rajagopalan:
+    - Frontend work
+    - Help Kyle with the quicksort algorithm
+- Kyle:
+    - Quicksort algorithm
+        - Sort by relevancy, rating, and website user ratings
+- Trevor:
+    - Frontend api
+    - With with Aashray Reddy on the backend model
+
+
 > Example:
 
 anime_data = [
