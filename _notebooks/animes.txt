@@ -1,0 +1,1 @@
+{'name': 'Sousou no Frieren', 'searches': 3342}{'name': 'Steins;Gate', 'searches': 175}{'name': 'Shingeki no Kyojin Season 3 Part 2', 'searches': None}{'name': '"Gintama"', 'searches': 8693}{'name': 'Ginga Eiyuu Densetsu', 'searches': 201}{'name': 'Bleach: Sennen Kessen-hen', 'searches': 193}{'name': 'Fruits Basket: The Final', 'searches': 100}
