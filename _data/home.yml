@@ -12,31 +12,30 @@ navbar_entries:
     url: https://github.com/trevorhuang1/csp_blog
 
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+  - title: PixelPartner
+    url: https://www.linkedin.com/in/trevor-huang-003391304/
+    desc: An image manipulation site with many different options
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+  - title: Binary Warmup
+    url: https://www.linkedin.com/in/trevor-huang-003391304/
+    desc: Practice for the AP CSP create performance task portion
 
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+  - title: Let 'em Cook!
+    url: https://www.linkedin.com/in/trevor-huang-003391304/
+    desc: A fun game loosely based off the hit game Little Alchemy
 
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+  - title: Titanic ML/Inflation Rate Predictor
+    url: https://www.linkedin.com/in/trevor-huang-003391304/
+    desc: Project for Data Structures
 
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
+  - title: Frankenstein Project
+    url: https://www.linkedin.com/in/trevor-huang-003391304/
+    desc: Combined several different projects together from different group members to practice integration
 
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+
+  - title: Data Structures Final Project
+    url: https://www.linkedin.com/in/trevor-huang-003391304/
+    desc: Webscraping and used PyTrends to give popularity scores to the top 100 rated anime series
 
 old_project_entries:
   - title: Soopr
