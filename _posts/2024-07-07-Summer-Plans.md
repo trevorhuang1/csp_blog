@@ -27,3 +27,4 @@ In my tutoring organization, 1Must, most tutors usually have the same kids every
 ## Long-term Vision:
 - Create a mobile version of this web applcication for easier access and convenience
 - Expand the application and maybe offer it to other tutoring organizations
+[Canva](https://www.canva.com/design/DAGKZf48sU0/9Fy5iuFcVwwl8Fu_y9adMw/edit)
