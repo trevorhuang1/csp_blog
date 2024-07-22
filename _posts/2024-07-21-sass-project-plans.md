@@ -27,9 +27,14 @@ After some research online, I realized that changing the theme using SASS and Ja
   @import "minima/hacker/jekyll-theme-hacker";
 }
 ```
-2. Again in custom-styles.scss, we can use the data-theme attribute 
+2. During my reseach, I also found a common use of an attribute in default.html files which used a light/dark mode switcher. Data-theme is used to store the site's current theme, which will be useful for later. 
 
+```html
+<html lang="{{ page.lang | default: "en" }}" class="html" data-theme="{{ site.theme_config.appearance | default: "auto" }}">
+```
+3. In here, the mixins for leaf-theme and hacker-theme are included if the data-theme is "leaf" or "hacker", respectively. This will allow for dynamic changing of the theme if the data-theme attribute is altered.
 ```scss
 html[data-theme="leaf"] { @include leaf-theme; }
 html[data-theme="hacker"] { @include hacker-theme; }
 ```
+4. Finally, 
