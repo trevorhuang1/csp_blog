@@ -33,8 +33,13 @@ After some research online, I realized that changing the theme using SASS and Ja
 <html lang="{{ page.lang | default: "en" }}" class="html" data-theme="{{ site.theme_config.appearance | default: "auto" }}">
 ```
 3. In here, the mixins for leaf-theme and hacker-theme are included if the data-theme is "leaf" or "hacker", respectively. This will allow for dynamic changing of the theme if the data-theme attribute is altered.
+
 ```scss
 html[data-theme="leaf"] { @include leaf-theme; }
 html[data-theme="hacker"] { @include hacker-theme; }
 ```
-4. Finally, 
+4. Finally, using some JavaScript code, the value of data-theme can be changed which can end up changing the overall theme. 
+
+```javascript
+document.documentElement.setAttribute('data-theme', 'leaf');
+```
