@@ -17,6 +17,7 @@ I made a [repl](https://replit.com/@TrevorHuang1/toggle-switches?v=1) to test ou
 After some research online, I realized that changing the theme using SASS and Javascript alone was more complicated than I previously thought. However, after researching some jekyll themes online which can toggle between light and dark mode, I think I've found a solution.
 
 1. First, I would make mixins for to import specific themes, such as leaf and hacker (done in custom-styles.scss)
+
 ```scss
 @mixin leaf-theme {
   @import "minima/leaf/_leaf";
@@ -27,6 +28,7 @@ After some research online, I realized that changing the theme using SASS and Ja
 }
 ```
 2. Again in custom-styles.scss, we can use the data-theme attribute 
+
 ```scss
 html[data-theme="leaf"] { @include leaf-theme; }
 html[data-theme="hacker"] { @include hacker-theme; }
